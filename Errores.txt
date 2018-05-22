@@ -1,0 +1,2 @@
+Errores:
+- En la clase Address, el atributo pool no esta designado como atributo.
