@@ -13,5 +13,20 @@ namespace ConsoleApp2
         List<Address> listapropiedades;
         List<Car> listaautos;
 
+        public void AgregarListaPersonas(Person persona)
+        {
+            listapersonas.Add(persona);
+        }
+
+        public void AgregarListaPropiedaes(Address propiedad)
+        {
+            listapropiedades.Add(propiedad);
+        }
+
+        public void AgregarListaAutos(Car autos)
+        {
+            listaautos.Add(autos);
+        }
+
     }
 }
